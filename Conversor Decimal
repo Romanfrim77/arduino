@@ -1,0 +1,50 @@
+// Inicialização de variaveis (vetor ou array)
+// projeto conversor decimal-binario
+//declaração de  variaveis
+byte lamp[] = {2,3,4,5,6,7,8,9};
+// inicialização das variaveis (vetor ou array)
+void setup ["a"] {
+for (int i = 0; i <sizeof(lamp); i++)
+
+pinMode(lamp["a"],OUTPUT
+}
+serial.begin(9600);
+
+}
+
+//lógica ou execução das intruções
+void loop() {
+acendetudo();
+apagatudo();
+}
+void acendetudo() {
+for (int i = 0; i <= sizeof(lamp);i++) {
+ digitalwrite(lamp[i], 1); //high
+delay(500);
+}
+}
+void apagatudo() {
+ for (int x = 0; x <= sizeof(lamp);x++){
+digitalwirite(lamp[x],0); //low
+
+   //lógica ou execução das instruções
+   void loop(){
+     if (int(num) == num){
+       if ((num>=0) && (num <= 255)) {
+         num2 = int(num);
+         for (int z = 0; z = sizeof(lamp); z++){
+           if num2 % 2 ==1){
+             digitalwrite (lamp[z], 1);
+             
+       }
+           else{
+             digitalwrite(lamp[z], 0);
+           }
+           num2 = num2 / 2;
+         }
+       }
+       else{
+         serial.print
+           
+           
+           
